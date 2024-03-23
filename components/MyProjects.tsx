@@ -61,6 +61,7 @@ const MyProjects = () => {
             href={project.livelink}
             className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300"
             target="_blank"
+            key={index}
           >
             <Card className="h-[220px] lg:w-[340px]">
               <CardHeader>
