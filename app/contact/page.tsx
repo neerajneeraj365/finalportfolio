@@ -20,7 +20,7 @@ const Contact = () => {
           to Me
         </h1>
         <p className="text-md text-slate-400 leading-7 [&:not(:first-child)]:mt-2">
-          If the form doesn't work, Please contact me on{" "}
+          If the form doesn&apos;t work, Please contact me on{" "}
           <Link
             href="mailto:nikatwork365@gmail.com"
             className="underline text-blue-700"
