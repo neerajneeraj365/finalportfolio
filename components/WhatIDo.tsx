@@ -15,15 +15,15 @@ const WhatIDo = () => {
       <p className="leading-7 [&:not(:first-child)]:mt-2">
         At the <span className="font-semibold">front end</span> of website
         development, My focus is on the user experience. I design how a website
-        looks and feels, ensuring it's visually appealing, easy to navigate, and
-        responsive across different devices like desktops, tablets, and
-        smartphones. This involves using languages like HTML for content
-        structure, CSS for styling, and JavaScript for interactivity. I use
-        frameworks like React or NextJS to streamline the development process
-        and create dynamic user interfaces.
+        looks and feels, ensuring it&apos;s visually appealing, easy to
+        navigate, and responsive across different devices like desktops,
+        tablets, and smartphones. This involves using languages like HTML for
+        content structure, CSS for styling, and JavaScript for interactivity. I
+        use frameworks like React or NextJS to streamline the development
+        process and create dynamic user interfaces.
       </p>
       <p className="leading-7 [&:not(:first-child)]:mt-2">
-        However, My work doesn't stop there. I am equally proficient in{" "}
+        However, My work doesn&apos;t stop there. I am equally proficient in{" "}
         <span className="font-semibold">back-end </span>
         development. This involves building and maintaining the server-side of
         websites, where data is stored, processed, and retrieved. I work with
