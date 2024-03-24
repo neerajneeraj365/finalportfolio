@@ -3,7 +3,7 @@ import SubHeading from "./SubHeading";
 
 const Hero = () => {
   return (
-    <div className="my-4 md:my-6 lg:my-8 space-y-8">
+    <div className="my-4 md:my-6 lg:my-8 space-y-2">
       <SubHeading title="Hello, I'm Neeraj." />
       <h1 className="scroll-m-20 text-6xl font-bold tracking-tight md:text-8xl">
         a Full Stack{" "}

@@ -53,13 +53,13 @@ const projects = [
 
 const MyProjects = () => {
   return (
-    <div className="">
+    <div className="mt-2">
       <SubHeading title="My Projects" />
       <div className="flex flex-col flex-wrap justify-between md:flex-row my-4 gap-y-4 gap-x-4">
         {projects.map((project, index) => (
           <Link
             href={project.livelink}
-            className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-lg"
+            className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-md"
             target="_blank"
             key={index}
           >
