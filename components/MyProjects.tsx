@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Bug, UserRound } from "lucide-react";
+import { ArrowDown, Bug, UserRound } from "lucide-react";
 import Link from "next/link";
 
 const projects = [
@@ -54,19 +54,19 @@ const projects = [
 const MyProjects = () => {
   return (
     <div className="">
-      <SubHeading title="Projects." />
+      <SubHeading title="My Projects" />
       <div className="flex flex-col flex-wrap justify-between md:flex-row my-4 gap-y-4 gap-x-4">
         {projects.map((project, index) => (
           <Link
             href={project.livelink}
-            className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300"
+            className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-lg"
             target="_blank"
             key={index}
           >
-            <Card className="h-[220px] lg:w-[340px]">
+            <Card className="h-[225px] lg:w-[340px]">
               <CardHeader>
                 <div className="">{project.icon}</div>
-                <CardTitle>{project.name}</CardTitle>
+                <CardTitle className="underline">{project.name}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
                 <div className="flex gap-x-1 text-xs dark:text-black">
                   <p className="bg-red-200 w-fit rounded-xl py-1 px-2">

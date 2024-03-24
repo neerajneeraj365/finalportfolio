@@ -17,7 +17,7 @@ const Contact = () => {
           <span className="scroll-m-20 text-6xl text-slate-400 font-semibold tracking-tight md:text-8xl">
             Namaste
           </span>{" "}
-          to Me
+          to me
         </h1>
         <p className="text-md text-slate-400 leading-7 [&:not(:first-child)]:mt-2">
           If the form doesn&apos;t work, Please contact me on{" "}

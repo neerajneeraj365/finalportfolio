@@ -22,7 +22,7 @@ const About = () => {
         <span className="scroll-m-20 text-6xl text-slate-400 font-semibold tracking-tight md:text-8xl">
           know
         </span>{" "}
-        Me
+        me
       </h1>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         Currently, studying in the{" "}

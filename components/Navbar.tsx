@@ -28,7 +28,7 @@ const routes = [
   {
     number: "03",
     label: "Resume",
-    path: "/resume.pdf",
+    path: "/Resume.pdf",
   },
   {
     number: "04",
