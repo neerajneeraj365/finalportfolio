@@ -16,6 +16,20 @@ const projects = [
       "Crafted with precision and creativity, my portfolio website showcases my expertise and passion in a captivating digital canvas.",
     icon: <UserRound size={40} />,
     livelink: "https://neerajportfolio-eight.vercel.app/",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-slate-200",
+      },
+      {
+        name: "MongoDB",
+        color: "bg-green-200",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-blue-200",
+      },
+    ],
   },
   {
     name: "My Portfolio 2.0",
@@ -23,6 +37,20 @@ const projects = [
       "Crafted with precision and creativity, my portfolio website showcases my expertise and passion in a captivating digital canvas.",
     icon: <UserRound size={40} />,
     livelink: "#",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-slate-200",
+      },
+      {
+        name: "MongoDB",
+        color: "bg-green-200",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-blue-200",
+      },
+    ],
   },
   {
     name: "Issue Tracker",
@@ -30,6 +58,20 @@ const projects = [
       "With our platform, users can effortlessly create, manage, and track any type of issue, whether it's a bug, feature request, or task.",
     icon: <Bug size={40} />,
     livelink: "/comingsoon",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-slate-200",
+      },
+      {
+        name: "MongoDB",
+        color: "bg-green-200",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-blue-200",
+      },
+    ],
   },
   // {
   //   name: "Issue Tracker",
@@ -59,22 +101,24 @@ const MyProjects = () => {
         {projects.map((project, index) => (
           <Link
             href={project.livelink}
-            className="cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-md"
+            className="cursor-pointer"
             target="_blank"
             key={index}
           >
-            <Card className="h-[225px] lg:w-[340px]">
+            <Card className="h-[225px] lg:w-[340px] transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-md">
               <CardHeader>
                 <div className="">{project.icon}</div>
                 <CardTitle className="underline">{project.name}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
                 <div className="flex gap-x-1 text-xs dark:text-black">
-                  <p className="bg-red-200 w-fit rounded-xl py-1 px-2">
-                    NextJS
-                  </p>
-                  <p className="bg-green-200 w-fit rounded-xl py-1 px-2">
-                    MongoDB
-                  </p>
+                  {project.tags?.map((tag, index) => (
+                    <p
+                      key={index}
+                      className={`rounded-xl w-fit px-2 py-1 ${tag.color}`}
+                    >
+                      {tag.name}
+                    </p>
+                  ))}
                 </div>
               </CardHeader>
             </Card>
