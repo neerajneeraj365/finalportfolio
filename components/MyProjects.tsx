@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowDown, Bug, UserRound } from "lucide-react";
+import { ArrowDown, BookText, Bug, UserRound } from "lucide-react";
 import Link from "next/link";
 
 const projects = [
@@ -70,6 +70,31 @@ const projects = [
       {
         name: "Tailwind",
         color: "bg-blue-200",
+      },
+    ],
+  },
+  {
+    name: "Blog Website",
+    description:
+      "A blog website for mental health care. Take control of your mind while reading their articles and quotes of the day",
+    icon: <BookText size={40}/>,
+    livelink: "https://blackhole-pi.vercel.app",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-slate-200",
+      },
+      {
+        name: "MongoDB",
+        color: "bg-green-200",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-blue-200",
+      },
+      {
+        name: "Prisma",
+        color: "bg-purple-200",
       },
     ],
   },

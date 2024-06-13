@@ -7,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 const routes = [
   {
     icon: EmailIcon,
-    url: "mailto:nikatwork365@gmail.com",
+    url: "mailto:neeraj.webdev26@gmail.com",
   },
   {
     icon: GitHubIcon,

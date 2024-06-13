@@ -29,6 +29,7 @@ const routes = [
     number: "03",
     label: "Resume",
     path: "/Resume.pdf",
+    target: "_blank"
   },
   {
     number: "04",
@@ -72,6 +73,7 @@ export const Navbar = () => {
                     <Link
                       href={route.path}
                       className="text-center flex justify-center items-center w-full"
+                      target={route?.target}
                     >
                       <span className="scroll-m-20 text-lg text-slate-500 font-normal tracking-tight">
                         ({route.number})

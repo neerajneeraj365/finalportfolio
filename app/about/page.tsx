@@ -65,14 +65,33 @@ const About = () => {
           <CardHeader>
             <CardTitle>💼 Technical Skills</CardTitle>
             <CardDescription>
-              Design tools:- Figma, Adobe XD <br />
-              Languages:- HTML, CSS, JavaScript <br />
-              Frameworks:- Front-end: React, Next & Back-end: Node, Express{" "}
+              <span className="font-bold">Design tools:-</span> Figma, Adobe XD,
+              Balsamiq <br />
+              <span className="font-bold">Languages:-</span> HTML, CSS,
+              JavaScript <br />
+              <span className="font-bold">Frameworks:-</span> Front-end: React,
+              Next & Back-end: Node, Express <br />
+              <span className="font-bold">Databases:-</span> MongoDB, SQL,
+              Firebase <br />
+              <span className="font-bold">Libraries:-</span> Material UI, Shadcn
+              UI, Ant Design <br />
+              <span className="font-bold">Version control:-</span> Git <br />
+              <span className="font-bold">Deployment:-</span> Vercel, AWS, Azure{" "}
               <br />
-              Databases:- MongoDB, SQL, Firebase <br />
-              Libraries:- Material UI, Shadcn UI, Ant Design <br />
-              Version control:- Git <br />
-              Deployment:- Vercel, AWS, Azure <br />
+            </CardDescription>
+          </CardHeader>
+        </Card>
+        <Card className="lg:w-[340px]">
+          <CardHeader>
+            <CardTitle>⏳ Soft Skills</CardTitle>
+            <CardDescription>
+              <span className="font-bold">Leadership:-</span> Decision making,
+              Mentoring, Planning <br />
+              <span className="font-bold">Communication:-</span> Active
+              listening, Presentation <br />
+              <span className="font-bold">Teamworking:-</span> Problem solving,
+              Critical thinking
+              <br />
             </CardDescription>
           </CardHeader>
         </Card>

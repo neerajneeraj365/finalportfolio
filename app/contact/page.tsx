@@ -19,13 +19,13 @@ const Contact = () => {
           </span>{" "}
           to me
         </h1>
-        <p className="text-md text-slate-400 leading-7 [&:not(:first-child)]:mt-2">
+        <p className="text-md text-muted-foreground leading-7 [&:not(:first-child)]:mt-2">
           If the form doesn&apos;t work, Please contact me on{" "}
           <Link
-            href="mailto:nikatwork365@gmail.com"
+            href="mailto:neeraj.webdev26@gmail.com"
             className="underline text-blue-700"
           >
-            nikatwork365@gmail.com
+            neeraj.webdev26@gmail.com
           </Link>
         </p>
         <form onSubmit={handleSubmit}>
