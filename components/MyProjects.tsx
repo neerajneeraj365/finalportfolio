@@ -52,27 +52,27 @@ const projects = [
       },
     ],
   },
-  {
-    name: "Issue Tracker",
-    description:
-      "With our platform, users can effortlessly create, manage, and track any type of issue, whether it's a bug, feature request, or task.",
-    icon: <Bug size={40} />,
-    livelink: "https://issuetracker-kappa.vercel.app",
-    tags: [
-      {
-        name: "NextJS",
-        color: "bg-slate-200",
-      },
-      {
-        name: "MongoDB",
-        color: "bg-green-200",
-      },
-      {
-        name: "Tailwind",
-        color: "bg-blue-200",
-      },
-    ],
-  },
+  // {
+  //   name: "Issue Tracker",
+  //   description:
+  //     "With our platform, users can effortlessly create, manage, and track any type of issue, whether it's a bug, feature request, or task.",
+  //   icon: <Bug size={40} />,
+  //   livelink: "https://issuetracker-kappa.vercel.app",
+  //   tags: [
+  //     {
+  //       name: "NextJS",
+  //       color: "bg-slate-200",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "bg-green-200",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "bg-blue-200",
+  //     },
+  //   ],
+  // },
   {
     name: "Blog Website",
     description:
