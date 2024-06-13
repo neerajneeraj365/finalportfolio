@@ -57,7 +57,7 @@ const projects = [
     description:
       "With our platform, users can effortlessly create, manage, and track any type of issue, whether it's a bug, feature request, or task.",
     icon: <Bug size={40} />,
-    livelink: "/comingsoon",
+    livelink: "https://issuetracker-kappa.vercel.app",
     tags: [
       {
         name: "NextJS",
@@ -77,7 +77,7 @@ const projects = [
     name: "Blog Website",
     description:
       "A blog website for mental health care. Take control of your mind while reading their articles and quotes of the day",
-    icon: <BookText size={40}/>,
+    icon: <BookText size={40} />,
     livelink: "https://blackhole-pi.vercel.app",
     tags: [
       {
