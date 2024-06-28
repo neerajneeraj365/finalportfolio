@@ -78,7 +78,7 @@ const projects = [
     description:
       "A blog website for mental health care. Take control of your mind while reading their articles and quotes of the day",
     icon: <BookText size={40} />,
-    livelink: "https://blackhole-pi.vercel.app",
+    livelink: "https://mymentalhole.vercel.app",
     tags: [
       {
         name: "NextJS",
