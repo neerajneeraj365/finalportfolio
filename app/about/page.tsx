@@ -72,7 +72,7 @@ const About = () => {
               JavaScript, TypeScript <br />
               <span className="font-bold">Frameworks:-</span> Front-end: React,
               Next & Back-end: Node, Express <br />
-              <span className="font-bold">Databases:-</span> MongoDB, PlanetScale, SQL,
+              <span className="font-bold">Databases:-</span> MongoDB, PlanetScale, SQL
                <br />
               <span className="font-bold">Libraries:-</span> Material UI, Shadcn
               UI, Ant Design <br />
