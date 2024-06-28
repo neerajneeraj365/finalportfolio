@@ -65,18 +65,18 @@ const About = () => {
           <CardHeader>
             <CardTitle>💼 Technical Skills</CardTitle>
             <CardDescription>
-              <span className="font-bold">Design tools:-</span> Figma, Adobe XD,
+              <span className="font-bold">Design tools:-</span> Figma,
               Balsamiq <br />
               <span className="font-bold">Languages:-</span> HTML, CSS,
-              JavaScript <br />
+              JavaScript, TypeScript <br />
               <span className="font-bold">Frameworks:-</span> Front-end: React,
               Next & Back-end: Node, Express <br />
-              <span className="font-bold">Databases:-</span> MongoDB, SQL,
-              Firebase <br />
+              <span className="font-bold">Databases:-</span> MongoDB, PlanetScale, SQL,
+               <br />
               <span className="font-bold">Libraries:-</span> Material UI, Shadcn
               UI, Ant Design <br />
               <span className="font-bold">Version control:-</span> Git <br />
-              <span className="font-bold">Deployment:-</span> Vercel, AWS, Azure{" "}
+              <span className="font-bold">Deployment:-</span> Vercel, AWS{" "}
               <br />
             </CardDescription>
           </CardHeader>
