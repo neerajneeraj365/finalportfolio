@@ -56,6 +56,7 @@ const About = () => {
               Front-end Development <br />
               Backend Development <br />
               API Development and Integration <br />
+              SEO <br />
               Databases <br />
               Deployment <br />
             </CardDescription>
