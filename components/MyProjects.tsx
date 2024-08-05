@@ -6,7 +6,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowDown, BookText, Bug, UserRound } from "lucide-react";
+import {
+  ArrowDown,
+  BookText,
+  BriefcaseMedical,
+  Bug,
+  UserRound,
+} from "lucide-react";
 import Link from "next/link";
 
 const projects = [
@@ -14,7 +20,7 @@ const projects = [
     name: "My Portfolio 1.0",
     description:
       "Crafted with precision and creativity, my portfolio website showcases my expertise and passion in a captivating digital canvas.",
-    icon: <UserRound size={40} />,
+    icon: <UserRound size={20} />,
     livelink: "https://neerajportfolio-eight.vercel.app/",
     tags: [
       {
@@ -29,13 +35,17 @@ const projects = [
         name: "Tailwind",
         color: "bg-blue-200",
       },
+      {
+        name: "Prisma",
+        color: "bg-purple-200",
+      },
     ],
   },
   {
     name: "My Portfolio 2.0",
     description:
       "Crafted with precision and creativity, my portfolio website showcases my expertise and passion in a captivating digital canvas.",
-    icon: <UserRound size={40} />,
+    icon: <UserRound size={20} />,
     livelink: "#",
     tags: [
       {
@@ -50,34 +60,42 @@ const projects = [
         name: "Tailwind",
         color: "bg-blue-200",
       },
+      {
+        name: "Prisma",
+        color: "bg-purple-200",
+      },
     ],
   },
-  // {
-  //   name: "Issue Tracker",
-  //   description:
-  //     "With our platform, users can effortlessly create, manage, and track any type of issue, whether it's a bug, feature request, or task.",
-  //   icon: <Bug size={40} />,
-  //   livelink: "https://issuetracker-kappa.vercel.app",
-  //   tags: [
-  //     {
-  //       name: "NextJS",
-  //       color: "bg-slate-200",
-  //     },
-  //     {
-  //       name: "MongoDB",
-  //       color: "bg-green-200",
-  //     },
-  //     {
-  //       name: "Tailwind",
-  //       color: "bg-blue-200",
-  //     },
-  //   ],
-  // },
+  {
+    name: "Dentist Website",
+    description:
+      "With this platform, users can effortlessly book an appointment without having to wait in line or deal with the hassle of phone calls. ",
+    icon: <BriefcaseMedical size={20} />,
+    livelink: "https://ravi-orthodontics.vercel.app/",
+    tags: [
+      {
+        name: "NextJS",
+        color: "bg-slate-200",
+      },
+      {
+        name: "MongoDB",
+        color: "bg-green-200",
+      },
+      {
+        name: "Tailwind",
+        color: "bg-blue-200",
+      },
+      {
+        name: "Prisma",
+        color: "bg-purple-200",
+      },
+    ],
+  },
   {
     name: "Blog Website",
     description:
       "A blog website for mental health care. Take control of your mind while reading their articles and quotes of the day",
-    icon: <BookText size={40} />,
+    icon: <BookText size={20} />,
     livelink: "https://mymentalhole.vercel.app",
     tags: [
       {
@@ -130,7 +148,7 @@ const MyProjects = () => {
             target="_blank"
             key={index}
           >
-            <Card className="h-[225px] lg:w-[340px] transition ease-in-out delay-100 hover:scale-105 duration-300 hover:shadow-md">
+            <Card className="h-[220px] lg:w-[340px] transition ease-in-out delay-100 hover:scale-103 duration-300 hover:shadow-md">
               <CardHeader>
                 <div className="">{project.icon}</div>
                 <CardTitle className="underline">{project.name}</CardTitle>

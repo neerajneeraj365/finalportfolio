@@ -13,6 +13,10 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "./ui/modetoggle";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 const routes = [
   {
@@ -29,12 +33,31 @@ const routes = [
     number: "03",
     label: "Resume",
     path: "/Resume.pdf",
-    target: "_blank"
+    target: "_blank",
   },
   {
     number: "04",
     label: "Contact",
     path: "/contact",
+  },
+];
+
+const socials = [
+  {
+    icon: EmailIcon,
+    url: "mailto:neeraj.webdev26@gmail.com",
+  },
+  {
+    icon: GitHubIcon,
+    url: "https://github.com/neerajneeraj365",
+  },
+  {
+    icon: InstagramIcon,
+    url: "https://www.instagram.com/neerajbharrdwaj/",
+  },
+  {
+    icon: LinkedInIcon,
+    url: "https://www.linkedin.com/in/neerajneerajweb/",
   },
 ];
 
@@ -66,7 +89,7 @@ export const Navbar = () => {
             role="presentation"
             onClick={toggleDrawer(false)}
           >
-            <div className="flex flex-col md:flex-row gap-y-4 my-8">
+            <div className="flex flex-col md:flex-row gap-y-4 my-4">
               {routes.map((route, index) => (
                 <ListItem key={index} disablePadding>
                   <ListItemButton>
@@ -90,6 +113,18 @@ export const Navbar = () => {
                     </Link>
                   </ListItemButton>
                 </ListItem>
+              ))}
+            </div>
+            <div className="flex items-center justify-center my-4">
+              {socials.map((social, index) => (
+                <Link
+                  key={index}
+                  href={social.url}
+                  target="_blank"
+                  className="flex px-2 gap-4"
+                >
+                  <social.icon />
+                </Link>
               ))}
             </div>
           </div>
