@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import SubHeading from "./SubHeading";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -25,6 +26,10 @@ const Hero = () => {
             Resume
           </Link>
         </Button>
+      </div>
+
+      <div className="flex items-center justify-center">
+        <Image src="/WebDev.jpg" alt="Image" height="1000" width="1000" />
       </div>
     </div>
   );
