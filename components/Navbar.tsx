@@ -31,12 +31,17 @@ const routes = [
   },
   {
     number: "03",
+    label: "Blogs",
+    path: "/blog",
+  },
+  {
+    number: "04",
     label: "Resume",
     path: "/Resume.pdf",
     target: "_blank",
   },
   {
-    number: "04",
+    number: "05",
     label: "Contact",
     path: "/contact",
   },
