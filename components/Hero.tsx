@@ -28,7 +28,7 @@ const Hero = () => {
           </Link>
         </Button>
         <Button variant="ghost" asChild>
-          <Link href="/blog" target="_blank">
+          <Link href="/blog">
             Read my Blogs <ArrowRight className="h-4 w-4" />
           </Link>
         </Button>
