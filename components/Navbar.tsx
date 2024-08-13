@@ -85,7 +85,7 @@ export const Navbar = () => {
         </h3>
       </Link> */}
       <Link href="/">
-        <Image src="/Logo.png" alt="Logo" height="100" width="100" />
+        <Image src="/Logo.png" alt="Logo" height="130" width="150" />
       </Link>
       <div className="flex justify-center items-center">
         <ModeToggle />
