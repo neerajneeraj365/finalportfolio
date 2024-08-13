@@ -17,6 +17,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import Image from "next/image";
 
 const routes = [
   {
@@ -75,13 +76,16 @@ export const Navbar = () => {
 
   return (
     <div className="h-20 flex items-center justify-between">
-      <Link href="/">
+      {/* <Link href="/">
         <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
           <span className="scroll-m-20 text-2xl text-slate-400 font-semibold tracking-tight">
             N
           </span>
           N
         </h3>
+      </Link> */}
+      <Link href="/">
+        <Image src="/Logo.png" alt="Logo" height="100" width="100" />
       </Link>
       <div className="flex justify-center items-center">
         <ModeToggle />
