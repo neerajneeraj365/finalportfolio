@@ -101,8 +101,8 @@ const Blogs = () => {
               page.
               <br />
               <br />
-              Here's an example of how you can create a custom not found/404
-              page:
+              Here&apos;s an example of how you can create a custom not
+              found/404 page:
               <br />
               <br />
               1. Create a new file named not-found.tsx inside the app directory:
