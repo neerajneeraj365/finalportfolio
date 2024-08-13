@@ -127,8 +127,8 @@ const Blogs = () => {
                 className="flex items-center"
               />
               3. Save the file. After creating this file, any time a user
-              accesses a route that doesn't exist, Next.js will automatically
-              render the content from not-found.tsx
+              accesses a route that doesn&apos;t exist, Next.js will
+              automatically render the content from not-found.tsx
             </p>
             <br />
             <SubHeading title="Thankyou" />
